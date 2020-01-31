@@ -19,6 +19,15 @@ class _HomeState extends State<HomeView> {
   TextEditingController searchController = TextEditingController();
 
   @override
+  void initState() {
+    searchController = TextEditingController();
+    searchController.addListener(() {
+      setState(() {});
+    });
+    super.initState();
+  }
+
+  @override
   void dispose() {
     searchController.dispose();
     super.dispose();

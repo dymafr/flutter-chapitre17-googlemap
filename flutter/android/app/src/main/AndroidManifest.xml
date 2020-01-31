@@ -11,7 +11,7 @@
         android:label="projet_dyma_end"
         android:icon="@mipmap/ic_launcher">
         <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyA4CRfF6uFW5DDsb2hqMiEqTqL348vMX3c"/>
+               android:value="AIzaSyBBydpb84N1KSsxyiz9iCS2_1ji2Tgr8xk"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

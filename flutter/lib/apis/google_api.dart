@@ -3,7 +3,7 @@ import 'package:projet_dyma_end/models/activity_model.dart';
 import 'package:projet_dyma_end/models/place_model.dart';
 import 'dart:convert';
 
-const GOOGLE_KEY_API = '';
+const GOOGLE_KEY_API = 'AIzaSyBBydpb84N1KSsxyiz9iCS2_1ji2Tgr8xk';
 
 Uri _queryAutocompleteBuilder(String query) {
   return Uri.parse(

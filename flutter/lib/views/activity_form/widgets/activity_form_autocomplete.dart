@@ -60,13 +60,14 @@ class _InputAddressState extends State<InputAddress> {
                   prefixIcon: Icon(Icons.search),
                 ),
                 onChanged: _searchAddress,
+                autofocus: true,
               ),
               Positioned(
                 top: 5,
                 right: 3,
                 child: IconButton(
                   icon: Icon(Icons.clear),
-                  onPressed: () => Navigator.pop(context),
+                  onPressed: () => Navigator.pop(context, null),
                 ),
               )
             ],
